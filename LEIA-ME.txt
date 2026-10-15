@@ -1,0 +1,28 @@
+CALL CREATIVE STUDIO — PRIMEIRA VERSÃO PWA
+
+ARQUIVOS
+- index.html: site e estilos. Edite textos, cores e seções aqui.
+- config.js: número de WhatsApp. Preencha whatsapp com DDI + DDD + número, apenas dígitos.
+- manifest.webmanifest: nome, cores e comportamento de instalação do PWA.
+- service-worker.js: cache básico para acesso offline e atualizações.
+- icon.svg: ícone do site/PWA.
+
+COMO TESTAR
+1. Extraia o ZIP para uma pasta.
+2. Abra index.html para conferir o visual. O PWA/service worker precisa de hospedagem local ou HTTPS para funcionar plenamente.
+3. Antes de publicar, edite config.js e substitua whatsapp: '' pelo número comercial real, somente dígitos (ex.: formato 5511999999999; exemplo fictício).
+4. Publique os arquivos na raiz de um repositório GitHub e ative GitHub Pages nas configurações do repositório.
+5. Acesse a URL HTTPS publicada para testar instalação, navegação e cache.
+
+EDITAR DEPOIS
+- Textos, títulos, serviços e preços: index.html.
+- Cores: variáveis no começo do CSS (:root).
+- WhatsApp: config.js.
+- Nome/ícone e aparência de instalação: manifest.webmanifest e icon.svg.
+
+NOTAS IMPORTANTES
+- Esta é uma primeira versão visual, não um painel administrativo. Para alterar o conteúdo publicado, edite os arquivos e publique as alterações novamente.
+- O valor da Gestão Completa está identificado como provisório (R$ 1.200/mês), conforme planejamento.
+- O botão de WhatsApp só funcionará depois de configurar o número real.
+- A tipografia usa Google Fonts quando há internet; fontes alternativas serão usadas sem conexão.
+- O PWA é uma vitrine/landing page. Não inclui banco de dados, login, formulário que salva respostas nem agendamento automático.

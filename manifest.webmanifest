@@ -1,0 +1,14 @@
+{
+  "name": "Call Creative Studio",
+  "short_name": "Call Studio",
+  "description": "Estratégia, design e conteúdo para marcas com personalidade.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8f5ef",
+  "theme_color": "#f4a4c7",
+  "icons": [
+    {"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
