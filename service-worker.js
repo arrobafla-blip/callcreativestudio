@@ -1,5 +1,5 @@
-const CACHE_NAME = 'call-creative-v4';
-const CORE = ['./','./index.html','./config.js','./manifest.webmanifest','./icon.svg','./servicos.html','./orcamento.html'];
+const CACHE_NAME = 'call-creative-v5';
+const CORE = ['./','./index.html','./config.js','./manifest.webmanifest','./icon.jpg','./call-hero.jpg','./servicos.html','./orcamento.html'];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(CORE)).then(() => self.skipWaiting())));
 self.addEventListener('activate', event => event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE_NAME).map(key => caches.delete(key)))).then(() => self.clients.claim())));
 self.addEventListener('fetch', event => {
